@@ -15,10 +15,11 @@ Ejecute lo siguiente para construir el proyecto
 mvnw package
  ```
 
-En la carpeta estan los siguientes script:
+En la carpeta estan el siguiente archivo para crear los objetos de DataBase MySQL:
+Contiene los objetos requeridos para la aplicacion.
+Al final del archivo estan unos INSERT de ejemplos para poblar catalagos
 ```
-TiempoAireDB_objetosNecesarios.sql	<Contiene los objetos requeridos para la aplicacion>
-TiempoAireDB_RegistrosParaCatalago.sql	<Contiene INSERTs de ejemplos para poblar catalagos>
+TiempoAireDB_objetosNecesarios.sql
 ```
 
 Despues de crear la DB y los objetos requeridos, ejecutar aplicación 
